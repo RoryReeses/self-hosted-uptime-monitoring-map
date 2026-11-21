@@ -1,0 +1,1206 @@
+{
+  "repository": "self-hosted-uptime-monitoring-map",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Uptime Kuma",
+      "repository": "louislam/uptime-kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "clone_url": "https://github.com/louislam/uptime-kuma.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:08.628227+08:00",
+      "version_or_commit": "b0cd0f1daf708a6c04f074c925a20e0229e80258",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/README.md",
+          "final_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/README.md",
+          "path": "sources/snapshots/louislam--uptime-kuma-readme.txt",
+          "sha256": "e77d50b059a74f52820870157cb3faf5cdff474b823a8a7c4d2d3e6e96032f21",
+          "http_status": 200,
+          "line_count": 216,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/LICENSE",
+          "path": "sources/snapshots/louislam--uptime-kuma-license.txt",
+          "sha256": "a0e4fe6bed45a817794411c8ddf2deffbe010ac3a2b2f47e5b8d2fe2f9486883",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/louislam/uptime-kuma.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nb0cd0f1daf708a6c04f074c925a20e0229e80258\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "louislam--uptime-kuma-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/README.md",
+          "version_or_commit": "b0cd0f1daf708a6c04f074c925a20e0229e80258",
+          "checked_at": "2026-11-21T21:14:08.628227+08:00",
+          "snapshot_path": "sources/snapshots/louislam--uptime-kuma-readme.txt",
+          "line_start": 27,
+          "line_end": 27,
+          "upstream_excerpt": "- Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "louislam--uptime-kuma-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/README.md",
+          "version_or_commit": "b0cd0f1daf708a6c04f074c925a20e0229e80258",
+          "checked_at": "2026-11-21T21:14:08.628227+08:00",
+          "snapshot_path": "sources/snapshots/louislam--uptime-kuma-readme.txt",
+          "line_start": 27,
+          "line_end": 27,
+          "upstream_excerpt": "- Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "louislam--uptime-kuma-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/LICENSE",
+          "version_or_commit": "b0cd0f1daf708a6c04f074c925a20e0229e80258",
+          "checked_at": "2026-11-21T21:14:08.628227+08:00",
+          "snapshot_path": "sources/snapshots/louislam--uptime-kuma-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2021 Louis Lam\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/louislam--uptime-kuma-observation.json"
+    },
+    {
+      "name": "Gatus",
+      "repository": "TwiN/gatus",
+      "url": "https://github.com/TwiN/gatus",
+      "clone_url": "https://github.com/TwiN/gatus.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:09.263704+08:00",
+      "version_or_commit": "655e6f0dc0aca8de5b5018e8e521912fffc2c576",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/README.md",
+          "final_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/README.md",
+          "path": "sources/snapshots/twin--gatus-readme.txt",
+          "sha256": "df0caa12c60e3ab941767ca1964fdcc2a53e7a7c88b6a5c888c70d5d29f2b989",
+          "http_status": 200,
+          "line_count": 3828,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/LICENSE",
+          "path": "sources/snapshots/twin--gatus-license.txt",
+          "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+          "http_status": 200,
+          "line_count": 202,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/TwiN/gatus.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n655e6f0dc0aca8de5b5018e8e521912fffc2c576\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "twin--gatus-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Gatus is a developer-oriented health dashboard that gives you the ability to monitor your services using HTTP, ICMP, TCP, and even DNS queries as well as evaluate the result of said queries by using a\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/README.md",
+          "version_or_commit": "655e6f0dc0aca8de5b5018e8e521912fffc2c576",
+          "checked_at": "2026-11-21T21:14:09.263704+08:00",
+          "snapshot_path": "sources/snapshots/twin--gatus-readme.txt",
+          "line_start": 9,
+          "line_end": 10,
+          "upstream_excerpt": "Gatus is a developer-oriented health dashboard that gives you the ability to monitor your services using HTTP, ICMP, TCP, and even DNS\nqueries as well as evaluate the result of said queries by using a list of conditions on values like the status code,",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "twin--gatus-axis-2",
+          "field": "decision_axis_2",
+          "statement": "checks can be paired with alerting via Slack, Teams, PagerDuty, Discord, Twilio and many more.",
+          "upstream_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/README.md",
+          "version_or_commit": "655e6f0dc0aca8de5b5018e8e521912fffc2c576",
+          "checked_at": "2026-11-21T21:14:09.263704+08:00",
+          "snapshot_path": "sources/snapshots/twin--gatus-readme.txt",
+          "line_start": 12,
+          "line_end": 12,
+          "upstream_excerpt": "checks can be paired with alerting via Slack, Teams, PagerDuty, Discord, Twilio and many more.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "twin--gatus-axis-3",
+          "field": "decision_axis_3",
+          "statement": "You can also use Docker Hub if you prefer: console docker run -p 8080:8080 --name gatus twinproduction/gatus:stable",
+          "upstream_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/README.md",
+          "version_or_commit": "655e6f0dc0aca8de5b5018e8e521912fffc2c576",
+          "checked_at": "2026-11-21T21:14:09.263704+08:00",
+          "snapshot_path": "sources/snapshots/twin--gatus-readme.txt",
+          "line_start": 26,
+          "line_end": 29,
+          "upstream_excerpt": "You can also use Docker Hub if you prefer:\n```console\ndocker run -p 8080:8080 --name gatus twinproduction/gatus:stable\n```",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "twin--gatus-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/LICENSE",
+          "version_or_commit": "655e6f0dc0aca8de5b5018e8e521912fffc2c576",
+          "checked_at": "2026-11-21T21:14:09.263704+08:00",
+          "snapshot_path": "sources/snapshots/twin--gatus-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/twin--gatus-observation.json"
+    },
+    {
+      "name": "Statping-ng",
+      "repository": "statping-ng/statping-ng",
+      "url": "https://github.com/statping-ng/statping-ng",
+      "clone_url": "https://github.com/statping-ng/statping-ng.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:08.266419+08:00",
+      "version_or_commit": "c02149f0a5f67fec1e60cfa3537478cd50899b15",
+      "branch_at_observation": "dev",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/README.md",
+          "final_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/README.md",
+          "path": "sources/snapshots/statping-ng--statping-ng-readme.txt",
+          "sha256": "65ebb0d29382438e80819dc76e3f9b50acbac772bab6ab878b2975f1df7ac7af",
+          "http_status": 200,
+          "line_count": 162,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/LICENSE",
+          "path": "sources/snapshots/statping-ng--statping-ng-license.txt",
+          "sha256": "e99aaa9fd81e548c682d8b39ff84ee349f02b4549ab74e8d8855c31c09b71d5e",
+          "http_status": 200,
+          "line_count": 674,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/statping-ng/statping-ng.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/dev\tHEAD\nc02149f0a5f67fec1e60cfa3537478cd50899b15\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "statping-ng--statping-ng-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Statping-ng strives to remain future-proof and remain intact if a failure is created. Your Statping-ng service should not be running on the same instance you're trying to monitor. If your server crash\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/README.md",
+          "version_or_commit": "c02149f0a5f67fec1e60cfa3537478cd50899b15",
+          "checked_at": "2026-11-21T21:14:08.266419+08:00",
+          "snapshot_path": "sources/snapshots/statping-ng--statping-ng-readme.txt",
+          "line_start": 44,
+          "line_end": 44,
+          "upstream_excerpt": "  Statping-ng strives to remain future-proof and remain intact if a failure is created. Your Statping-ng service should not be running on the same instance you're trying to monitor. If your server crashes your Status Page should still remaining online to notify your users of downtime.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "statping-ng--statping-ng-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Statping-ng is a very lightweight application and is available for Linux, Mac, and Windows. The Docker image is only ~20Mb so you know that this application won't be filling up your hard drive space. \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/README.md",
+          "version_or_commit": "c02149f0a5f67fec1e60cfa3537478cd50899b15",
+          "checked_at": "2026-11-21T21:14:08.266419+08:00",
+          "snapshot_path": "sources/snapshots/statping-ng--statping-ng-readme.txt",
+          "line_start": 71,
+          "line_end": 72,
+          "upstream_excerpt": "Statping-ng is a very lightweight application and is available for Linux, Mac, and Windows. The Docker image is only ~20Mb so you know that this application won't be filling up your hard drive space.\nThe Status binary for all other OS's is ~17Mb at most.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "statping-ng--statping-ng-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/LICENSE",
+          "version_or_commit": "c02149f0a5f67fec1e60cfa3537478cd50899b15",
+          "checked_at": "2026-11-21T21:14:08.266419+08:00",
+          "snapshot_path": "sources/snapshots/statping-ng--statping-ng-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/statping-ng--statping-ng-observation.json"
+    },
+    {
+      "name": "Healthchecks",
+      "repository": "healthchecks/healthchecks",
+      "url": "https://github.com/healthchecks/healthchecks",
+      "clone_url": "https://github.com/healthchecks/healthchecks.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:08.302525+08:00",
+      "version_or_commit": "ac59dec93c5179cdff471894704f360d6ee5e02a",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/README.md",
+          "final_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/README.md",
+          "path": "sources/snapshots/healthchecks--healthchecks-readme.txt",
+          "sha256": "54f17cf15f0faf08ca8296cbc9652d0d5e8656136aff17d13c3457e558bbefc6",
+          "http_status": 200,
+          "line_count": 606,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/LICENSE",
+          "path": "sources/snapshots/healthchecks--healthchecks-license.txt",
+          "sha256": "2151fd0e0678bea30d9d16230713a470a127d7b8c34999c17dbebbb0a3485f18",
+          "http_status": 200,
+          "line_count": 12,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/healthchecks/healthchecks.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nac59dec93c5179cdff471894704f360d6ee5e02a\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "healthchecks--healthchecks-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Healthchecks is a cron job monitoring service. It listens for HTTP requests and email messages (\"pings\") from your cron jobs and scheduled tasks (\"checks\"). When a ping does not arrive on time, Health\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/README.md",
+          "version_or_commit": "ac59dec93c5179cdff471894704f360d6ee5e02a",
+          "checked_at": "2026-11-21T21:14:08.302525+08:00",
+          "snapshot_path": "sources/snapshots/healthchecks--healthchecks-readme.txt",
+          "line_start": 6,
+          "line_end": 8,
+          "upstream_excerpt": "Healthchecks is a cron job monitoring service. It listens for HTTP requests\nand email messages (\"pings\") from your cron jobs and scheduled tasks (\"checks\").\nWhen a ping does not arrive on time, Healthchecks sends out alerts.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "healthchecks--healthchecks-axis-2",
+          "field": "decision_axis_2",
+          "statement": "When a ping does not arrive on time, Healthchecks sends out alerts.",
+          "upstream_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/README.md",
+          "version_or_commit": "ac59dec93c5179cdff471894704f360d6ee5e02a",
+          "checked_at": "2026-11-21T21:14:08.302525+08:00",
+          "snapshot_path": "sources/snapshots/healthchecks--healthchecks-readme.txt",
+          "line_start": 8,
+          "line_end": 8,
+          "upstream_excerpt": "When a ping does not arrive on time, Healthchecks sends out alerts.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "healthchecks--healthchecks-axis-3",
+          "field": "decision_axis_3",
+          "statement": "and pre-built Docker images are available.",
+          "upstream_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/README.md",
+          "version_or_commit": "ac59dec93c5179cdff471894704f360d6ee5e02a",
+          "checked_at": "2026-11-21T21:14:08.302525+08:00",
+          "snapshot_path": "sources/snapshots/healthchecks--healthchecks-readme.txt",
+          "line_start": 26,
+          "line_end": 27,
+          "upstream_excerpt": "and [pre-built Docker images](https://hub.docker.com/r/healthchecks/healthchecks) are\navailable.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "healthchecks--healthchecks-license",
+          "field": "license_model",
+          "statement": "BSD-3-Clause",
+          "upstream_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/LICENSE",
+          "version_or_commit": "ac59dec93c5179cdff471894704f360d6ee5e02a",
+          "checked_at": "2026-11-21T21:14:08.302525+08:00",
+          "snapshot_path": "sources/snapshots/healthchecks--healthchecks-license.txt",
+          "line_start": 4,
+          "line_end": 4,
+          "upstream_excerpt": "Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/healthchecks--healthchecks-observation.json"
+    },
+    {
+      "name": "Upptime",
+      "repository": "upptime/upptime",
+      "url": "https://github.com/upptime/upptime",
+      "clone_url": "https://github.com/upptime/upptime.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:08.156801+08:00",
+      "version_or_commit": "461c367dc189d2e181bfe93b88ac48b3147c32f7",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/README.md",
+          "final_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/README.md",
+          "path": "sources/snapshots/upptime--upptime-readme.txt",
+          "sha256": "75b829390047aa0c21e1e415c9be7b49f437ffc4d8700414e0e7c9f45555869d",
+          "http_status": 200,
+          "line_count": 117,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/LICENSE",
+          "path": "sources/snapshots/upptime--upptime-license.txt",
+          "sha256": "bc1a0e29ff4343f3041e74deb6d832e05f07caaae87a99a97377eb21f4508aa5",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/upptime/upptime.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n461c367dc189d2e181bfe93b88ac48b3147c32f7\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "upptime--upptime-axis-1",
+          "field": "decision_axis_1",
+          "statement": "I built Upptime because, like many developers, I needed an uptime monitor and status page for my startup Pabio that was affordable, flexible, and completely under my control. At the time, existing ser\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/README.md",
+          "version_or_commit": "461c367dc189d2e181bfe93b88ac48b3147c32f7",
+          "checked_at": "2026-11-21T21:14:08.156801+08:00",
+          "snapshot_path": "sources/snapshots/upptime--upptime-readme.txt",
+          "line_start": 12,
+          "line_end": 12,
+          "upstream_excerpt": "I built Upptime because, like many developers, I needed an uptime monitor and status page for my startup Pabio that was affordable, flexible, and completely under my control. At the time, existing services felt expensive, rigid, or closed-source. GitHub Actions had just launched, and I thought: hmm... what if I turned Actions into a self-hosted uptime monitor?",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "upptime--upptime-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Slack notifications are sent on updates",
+          "upstream_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/README.md",
+          "version_or_commit": "461c367dc189d2e181bfe93b88ac48b3147c32f7",
+          "checked_at": "2026-11-21T21:14:08.156801+08:00",
+          "snapshot_path": "sources/snapshots/upptime--upptime-readme.txt",
+          "line_start": 59,
+          "line_end": 59,
+          "upstream_excerpt": "  - Slack notifications are sent on updates",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "upptime--upptime-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/LICENSE",
+          "version_or_commit": "461c367dc189d2e181bfe93b88ac48b3147c32f7",
+          "checked_at": "2026-11-21T21:14:08.156801+08:00",
+          "snapshot_path": "sources/snapshots/upptime--upptime-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2020 Anand Chowdhary\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/upptime--upptime-observation.json"
+    },
+    {
+      "name": "Cachet",
+      "repository": "cachethq/cachet",
+      "url": "https://github.com/cachethq/cachet",
+      "clone_url": "https://github.com/cachethq/cachet.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:14.694819+08:00",
+      "version_or_commit": "873e8223f611e9aaaae8a1122959f6d062b51e35",
+      "branch_at_observation": "3.x",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/README.md",
+          "final_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/README.md",
+          "path": "sources/snapshots/cachethq--cachet-readme.txt",
+          "sha256": "007993b1f8a5e4b6a4f2106430377fa6393c3c6d20879467d707be8a8de4c1f9",
+          "http_status": 200,
+          "line_count": 61,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/LICENSE.md",
+          "final_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/LICENSE.md",
+          "path": "sources/snapshots/cachethq--cachet-license.txt",
+          "sha256": "050753a71b996deb8f71a153ae18ada9e0c0acb9d9928d6e0783e8ac35011c0b",
+          "http_status": 200,
+          "line_count": 50,
+          "upstream_filename": "LICENSE.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/cachethq/cachet.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/3.x\tHEAD\n873e8223f611e9aaaae8a1122959f6d062b51e35\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "cachethq--cachet-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Cachet, the open source self-hosted status page system.",
+          "upstream_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/README.md",
+          "version_or_commit": "873e8223f611e9aaaae8a1122959f6d062b51e35",
+          "checked_at": "2026-11-21T21:14:14.694819+08:00",
+          "snapshot_path": "sources/snapshots/cachethq--cachet-readme.txt",
+          "line_start": 20,
+          "line_end": 20,
+          "upstream_excerpt": "Cachet, the open source self-hosted status page system.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "cachethq--cachet-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Cachet, the open source self-hosted status page system.",
+          "upstream_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/README.md",
+          "version_or_commit": "873e8223f611e9aaaae8a1122959f6d062b51e35",
+          "checked_at": "2026-11-21T21:14:14.694819+08:00",
+          "snapshot_path": "sources/snapshots/cachethq--cachet-readme.txt",
+          "line_start": 20,
+          "line_end": 20,
+          "upstream_excerpt": "Cachet, the open source self-hosted status page system.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "cachethq--cachet-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- A supported database: MariaDB, MySQL, PostgreSQL or SQLite",
+          "upstream_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/README.md",
+          "version_or_commit": "873e8223f611e9aaaae8a1122959f6d062b51e35",
+          "checked_at": "2026-11-21T21:14:14.694819+08:00",
+          "snapshot_path": "sources/snapshots/cachethq--cachet-readme.txt",
+          "line_start": 30,
+          "line_end": 30,
+          "upstream_excerpt": "- A supported database: MariaDB, MySQL, PostgreSQL or SQLite",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "cachethq--cachet-license",
+          "field": "license_model",
+          "statement": "Cachet custom source-available license; standalone redistribution restricted",
+          "upstream_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/LICENSE.md",
+          "version_or_commit": "873e8223f611e9aaaae8a1122959f6d062b51e35",
+          "checked_at": "2026-11-21T21:14:14.694819+08:00",
+          "snapshot_path": "sources/snapshots/cachethq--cachet-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "# Cachet license\n\nThis License from Alt Three Services Limited. (\u201cCachet\u201d) governs your use of the accompanying Software. By using the Software, you accept the terms of this License. The Cachet software is copyrighted by Alt Three Services Limited.\n\n## Permissions\n\nSubject to the following conditions, you are permitted to:\n\n- Use the Software in your commercial or non-commercial projects.\n- Modify the Software to suit your needs.\n- Bundle the Software with your own projects.\n- Submit modifications of the Software to Cachet.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/cachethq--cachet-observation.json"
+    },
+    {
+      "name": "Vigil",
+      "repository": "valeriansaliou/vigil",
+      "url": "https://github.com/valeriansaliou/vigil",
+      "clone_url": "https://github.com/valeriansaliou/vigil.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:13.314535+08:00",
+      "version_or_commit": "ff91dcf158da72546d74947bfeb50c77489d7f2f",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/README.md",
+          "final_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/README.md",
+          "path": "sources/snapshots/valeriansaliou--vigil-readme.txt",
+          "sha256": "d76c7222f2927677b59ca6b4de191a74680c9ec97b7f8907508fbb9f503acdad",
+          "http_status": 200,
+          "line_count": 522,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/LICENSE.md",
+          "final_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/LICENSE.md",
+          "path": "sources/snapshots/valeriansaliou--vigil-license.txt",
+          "sha256": "8d40c261ec2a7585b2f0eae933ea5906d20f917b7f8a5e8cfa7baac279a0fc2c",
+          "http_status": 200,
+          "line_count": 366,
+          "upstream_filename": "LICENSE.md"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/valeriansaliou/vigil.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nff91dcf158da72546d74947bfeb50c77489d7f2f\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "valeriansaliou--vigil-axis-1",
+          "field": "decision_axis_1",
+          "statement": "HTTP / TCP / SSH / ICMP services: Vigil frequently probes an HTTP, TCP, SSH or ICMP target and checks for reachability",
+          "upstream_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/README.md",
+          "version_or_commit": "ff91dcf158da72546d74947bfeb50c77489d7f2f",
+          "checked_at": "2026-11-21T21:14:13.314535+08:00",
+          "snapshot_path": "sources/snapshots/valeriansaliou--vigil-readme.txt",
+          "line_start": 73,
+          "line_end": 73,
+          "upstream_excerpt": "* **HTTP / TCP / SSH / ICMP services**: Vigil frequently probes an HTTP, TCP, SSH or ICMP target and checks for reachability",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "valeriansaliou--vigil-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Microservices Status Page. Monitors a distributed infrastructure and sends alerts (Slack, SMS, etc.).",
+          "upstream_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/README.md",
+          "version_or_commit": "ff91dcf158da72546d74947bfeb50c77489d7f2f",
+          "checked_at": "2026-11-21T21:14:13.314535+08:00",
+          "snapshot_path": "sources/snapshots/valeriansaliou--vigil-readme.txt",
+          "line_start": 6,
+          "line_end": 6,
+          "upstream_excerpt": "**Microservices Status Page. Monitors a distributed infrastructure and sends alerts (Slack, SMS, etc.).**",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "valeriansaliou--vigil-license",
+          "field": "license_model",
+          "statement": "MPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/LICENSE.md",
+          "version_or_commit": "ff91dcf158da72546d74947bfeb50c77489d7f2f",
+          "checked_at": "2026-11-21T21:14:13.314535+08:00",
+          "snapshot_path": "sources/snapshots/valeriansaliou--vigil-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Mozilla Public License Version 2.0\n==================================\n\n1. Definitions\n--------------\n\n1.1. \"Contributor\"\n    means each individual or legal entity that creates, contributes to\n    the creation of, or owns Covered Software.\n\n1.2. \"Contributor Version\"\n    means the combination of the Contributions of others (if any) used",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/valeriansaliou--vigil-observation.json"
+    },
+    {
+      "name": "Cabot",
+      "repository": "arachnys/cabot",
+      "url": "https://github.com/arachnys/cabot",
+      "clone_url": "https://github.com/arachnys/cabot.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:14.280742+08:00",
+      "version_or_commit": "eb0b3544f8c8ab2dee4643df191da346a941734f",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/README.md",
+          "final_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/README.md",
+          "path": "sources/snapshots/arachnys--cabot-readme.txt",
+          "sha256": "e39bbbbdd5be13527d73246745d0667a4fee104344c41b8b39693d4f1edfda47",
+          "http_status": 200,
+          "line_count": 122,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/LICENSE",
+          "path": "sources/snapshots/arachnys--cabot-license.txt",
+          "sha256": "0c0f3e3b129781b4fbc5bf3653249a61a9213797c60c01477c6093bd1489c348",
+          "http_status": 200,
+          "line_count": 9,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/arachnys/cabot.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\neb0b3544f8c8ab2dee4643df191da346a941734f\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "arachnys--cabot-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Cabot is a free, open-source, self-hosted infrastructure monitoring platform that provides some of the best features of PagerDuty, Server Density, Pingdom and Nagios without their cost and complexity.\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/README.md",
+          "version_or_commit": "eb0b3544f8c8ab2dee4643df191da346a941734f",
+          "checked_at": "2026-11-21T21:14:14.280742+08:00",
+          "snapshot_path": "sources/snapshots/arachnys--cabot-readme.txt",
+          "line_start": 15,
+          "line_end": 15,
+          "upstream_excerpt": "Cabot is a free, open-source, self-hosted infrastructure monitoring platform that provides some of the best features of [PagerDuty](http://www.pagerduty.com), [Server Density](http://www.serverdensity.com), [Pingdom](http://www.pingdom.com) and [Nagios](http://www.nagios.org) without their cost and complexity. (Nagios, I'm mainly looking at you.)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "arachnys--cabot-axis-2",
+          "field": "decision_axis_2",
+          "statement": "It provides a web interface that allows you to monitor services (e.g. \"Stage Redis server\", \"Production ElasticSearch cluster\") and send telephone, sms or hipchat/email alerts to your on-duty team if \u2026",
+          "upstream_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/README.md",
+          "version_or_commit": "eb0b3544f8c8ab2dee4643df191da346a941734f",
+          "checked_at": "2026-11-21T21:14:14.280742+08:00",
+          "snapshot_path": "sources/snapshots/arachnys--cabot-readme.txt",
+          "line_start": 17,
+          "line_end": 17,
+          "upstream_excerpt": "It provides a web interface that allows you to monitor services (e.g. \"Stage Redis server\", \"Production ElasticSearch cluster\") and send telephone, sms or hipchat/email alerts to your on-duty team if those services start misbehaving or go down - all without writing a line of code. Best of all, you can use data that you're already pushing to Graphite/statsd to generate alerts, rather than implementing and maintaining a whole new system of data collectors.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "arachnys--cabot-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Cabot is written in Python and uses Django, Bootstrap, Font Awesome and a whole host of other goodies under the hood.",
+          "upstream_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/README.md",
+          "version_or_commit": "eb0b3544f8c8ab2dee4643df191da346a941734f",
+          "checked_at": "2026-11-21T21:14:14.280742+08:00",
+          "snapshot_path": "sources/snapshots/arachnys--cabot-readme.txt",
+          "line_start": 27,
+          "line_end": 27,
+          "upstream_excerpt": "Cabot is written in Python and uses [Django](https://www.djangoproject.com/), [Bootstrap](http://getbootstrap.com/), [Font Awesome](http://fontawesome.io) and a whole host of other goodies under the hood.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "arachnys--cabot-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/LICENSE",
+          "version_or_commit": "eb0b3544f8c8ab2dee4643df191da346a941734f",
+          "checked_at": "2026-11-21T21:14:14.280742+08:00",
+          "snapshot_path": "sources/snapshots/arachnys--cabot-license.txt",
+          "line_start": 5,
+          "line_end": 5,
+          "upstream_excerpt": "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/arachnys--cabot-observation.json"
+    },
+    {
+      "name": "openstatus",
+      "repository": "openstatusHQ/openstatus",
+      "url": "https://github.com/openstatusHQ/openstatus",
+      "clone_url": "https://github.com/openstatusHQ/openstatus.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:16.432082+08:00",
+      "version_or_commit": "9201d65119690517789f3f3ebcd43c7760114248",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/README.md",
+          "final_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/README.md",
+          "path": "sources/snapshots/openstatushq--openstatus-readme.txt",
+          "sha256": "834327838b77124eb6787cbcf369055867e37bbf43d697bbb2e66fc68cc7673d",
+          "http_status": 200,
+          "line_count": 194,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/LICENSE",
+          "path": "sources/snapshots/openstatushq--openstatus-license.txt",
+          "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/openstatusHQ/openstatus.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n9201d65119690517789f3f3ebcd43c7760114248\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "openstatushq--openstatus-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Monitors, status pages, and notification channels are declared in YAML or Terraform, applied from the CLI or CI, and operable from Claude, ChatGPT, or Cursor over MCP. Available as a managed service o\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/README.md",
+          "version_or_commit": "9201d65119690517789f3f3ebcd43c7760114248",
+          "checked_at": "2026-11-21T21:14:16.432082+08:00",
+          "snapshot_path": "sources/snapshots/openstatushq--openstatus-readme.txt",
+          "line_start": 31,
+          "line_end": 31,
+          "upstream_excerpt": "Monitors, status pages, and notification channels are declared in YAML or Terraform, applied from the CLI or CI, and operable from Claude, ChatGPT, or Cursor over MCP. Available as a managed service or self-hosted.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "openstatushq--openstatus-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Open source & self-hostable \u2014 AGPL-3.0, private-locations run in a single 8.5MB Docker image",
+          "upstream_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/README.md",
+          "version_or_commit": "9201d65119690517789f3f3ebcd43c7760114248",
+          "checked_at": "2026-11-21T21:14:16.432082+08:00",
+          "snapshot_path": "sources/snapshots/openstatushq--openstatus-readme.txt",
+          "line_start": 44,
+          "line_end": 44,
+          "upstream_excerpt": "- **Open source & self-hostable** \u2014 AGPL-3.0, private-locations run in a single 8.5MB Docker image",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "openstatushq--openstatus-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/LICENSE",
+          "version_or_commit": "9201d65119690517789f3f3ebcd43c7760114248",
+          "checked_at": "2026-11-21T21:14:16.432082+08:00",
+          "snapshot_path": "sources/snapshots/openstatushq--openstatus-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/openstatushq--openstatus-observation.json"
+    },
+    {
+      "name": "Monika",
+      "repository": "hyperjumptech/monika",
+      "url": "https://github.com/hyperjumptech/monika",
+      "clone_url": "https://github.com/hyperjumptech/monika.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:15.784123+08:00",
+      "version_or_commit": "4599802a3bcf23070579b6d5e4ac95ab33d553de",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/README.md",
+          "final_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/README.md",
+          "path": "sources/snapshots/hyperjumptech--monika-readme.txt",
+          "sha256": "a93f99ca83545883a790a887701ec8754f6caed6e9e8fbf02017feb6901512c6",
+          "http_status": 200,
+          "line_count": 187,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/LICENSE.txt",
+          "path": "sources/snapshots/hyperjumptech--monika-license.txt",
+          "sha256": "51e25c09e58e229991b481ceaf46b6b842d896cadfbe90ea6af3d6f4940c5bd8",
+          "http_status": 200,
+          "line_count": 21,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/hyperjumptech/monika.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n4599802a3bcf23070579b6d5e4ac95ab33d553de\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "hyperjumptech--monika-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Monika is a command line application for synthetic monitoring. The name Monika stands for \"Monitoring Berkala\", which means \"periodic monitoring\" in the Indonesian language.",
+          "upstream_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/README.md",
+          "version_or_commit": "4599802a3bcf23070579b6d5e4ac95ab33d553de",
+          "checked_at": "2026-11-21T21:14:15.784123+08:00",
+          "snapshot_path": "sources/snapshots/hyperjumptech--monika-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "Monika is a command line application for synthetic monitoring. The name Monika stands for \"**Moni**toring Ber**ka**la\", which means \"periodic monitoring\" in the Indonesian language.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "hyperjumptech--monika-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Monika is a Node.js application written in TypeScript using the oclif framework. It was developed on node 20 (LTS), and npm v10.",
+          "upstream_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/README.md",
+          "version_or_commit": "4599802a3bcf23070579b6d5e4ac95ab33d553de",
+          "checked_at": "2026-11-21T21:14:15.784123+08:00",
+          "snapshot_path": "sources/snapshots/hyperjumptech--monika-readme.txt",
+          "line_start": 15,
+          "line_end": 16,
+          "upstream_excerpt": "Monika is a Node.js application written in TypeScript using the [oclif framework](https://oclif.io/).  \nIt was developed on **node 20 (LTS)**, and **npm v10**.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "hyperjumptech--monika-license",
+          "field": "license_model",
+          "statement": "MIT",
+          "upstream_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/LICENSE.txt",
+          "version_or_commit": "4599802a3bcf23070579b6d5e4ac95ab33d553de",
+          "checked_at": "2026-11-21T21:14:15.784123+08:00",
+          "snapshot_path": "sources/snapshots/hyperjumptech--monika-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2021 Hyperjump Technology\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/hyperjumptech--monika-observation.json"
+    },
+    {
+      "name": "Blackbox Exporter",
+      "repository": "prometheus/blackbox_exporter",
+      "url": "https://github.com/prometheus/blackbox_exporter",
+      "clone_url": "https://github.com/prometheus/blackbox_exporter.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:20.247730+08:00",
+      "version_or_commit": "ab759898ee9eee75f577691be4595c99e6cba577",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/README.md",
+          "final_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/README.md",
+          "path": "sources/snapshots/prometheus--blackbox--exporter-readme.txt",
+          "sha256": "a72ac9b6a0ad7b6ad182560a778f44d24db1301e9d6c8aa28807c395c61687d6",
+          "http_status": 200,
+          "line_count": 308,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/LICENSE",
+          "path": "sources/snapshots/prometheus--blackbox--exporter-license.txt",
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "http_status": 200,
+          "line_count": 201,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/prometheus/blackbox_exporter.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\nab759898ee9eee75f577691be4595c99e6cba577\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "prometheus--blackbox--exporter-axis-1",
+          "field": "decision_axis_1",
+          "statement": "will return metrics for a HTTP probe against google.com. The probesuccess metric indicates if the probe succeeded. Adding a debug=true parameter will return debug information for that probe.",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/README.md",
+          "version_or_commit": "ab759898ee9eee75f577691be4595c99e6cba577",
+          "checked_at": "2026-11-21T21:14:20.247730+08:00",
+          "snapshot_path": "sources/snapshots/prometheus--blackbox--exporter-readme.txt",
+          "line_start": 36,
+          "line_end": 38,
+          "upstream_excerpt": "will return metrics for a HTTP probe against google.com. The `probe_success`\nmetric indicates if the probe succeeded. Adding a `debug=true` parameter\nwill return debug information for that probe.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "prometheus--blackbox--exporter-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Images are published to [Quay][quay] (quay.io/prometheus/blackbox-exporter), [Docker Hub][hub] (prom/blackbox-exporter) and the [GitHub Container Registry][ghcr] (ghcr.io/prometheus/blackbox-exporter)\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/README.md",
+          "version_or_commit": "ab759898ee9eee75f577691be4595c99e6cba577",
+          "checked_at": "2026-11-21T21:14:20.247730+08:00",
+          "snapshot_path": "sources/snapshots/prometheus--blackbox--exporter-readme.txt",
+          "line_start": 23,
+          "line_end": 23,
+          "upstream_excerpt": "Images are published to [Quay][quay] (`quay.io/prometheus/blackbox-exporter`), [Docker Hub][hub] (`prom/blackbox-exporter`) and the [GitHub Container Registry][ghcr] (`ghcr.io/prometheus/blackbox-exporter`).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "prometheus--blackbox--exporter-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/LICENSE",
+          "version_or_commit": "ab759898ee9eee75f577691be4595c99e6cba577",
+          "checked_at": "2026-11-21T21:14:20.247730+08:00",
+          "snapshot_path": "sources/snapshots/prometheus--blackbox--exporter-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/prometheus--blackbox--exporter-observation.json"
+    },
+    {
+      "name": "OneUptime",
+      "repository": "OneUptime/oneuptime",
+      "url": "https://github.com/OneUptime/oneuptime",
+      "clone_url": "https://github.com/OneUptime/oneuptime.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:24.163271+08:00",
+      "version_or_commit": "6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/README.md",
+          "final_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/README.md",
+          "path": "sources/snapshots/oneuptime--oneuptime-readme.txt",
+          "sha256": "fc22863290c9b590c3d37f68ca7a892557ec3edb1c9e8f1dfeea720ed22fe74a",
+          "http_status": 200,
+          "line_count": 122,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/LICENSE",
+          "path": "sources/snapshots/oneuptime--oneuptime-license.txt",
+          "sha256": "252ae3f8d465ce9df56f6531c73107c674f40d7d053581e148d387c93979cb86",
+          "http_status": 200,
+          "line_count": 214,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/OneUptime/oneuptime.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "oneuptime--oneuptime-axis-2",
+          "field": "decision_axis_2",
+          "statement": "OneUptime is an open-source observability platform. It checks that your websites, APIs and servers work, collects the logs, metrics and traces your apps send, pages whoever is on call when something b\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/README.md",
+          "version_or_commit": "6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47",
+          "checked_at": "2026-11-21T21:14:24.163271+08:00",
+          "snapshot_path": "sources/snapshots/oneuptime--oneuptime-readme.txt",
+          "line_start": 31,
+          "line_end": 31,
+          "upstream_excerpt": "OneUptime is an open-source observability platform. It checks that your websites, APIs and servers work, collects the logs, metrics and traces your apps send, pages whoever is on call when something breaks, and tells your customers on a status page. It all happens in one product, so the tool that notices a problem is the one that pages your team.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "oneuptime--oneuptime-axis-3",
+          "field": "decision_axis_3",
+          "statement": "You need a Linux server with at least 8 GB of memory. On a new Ubuntu, Debian or RHEL-based server, one command installs Docker, Git and Node.js where they are missing, asks for the address people wil\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/README.md",
+          "version_or_commit": "6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47",
+          "checked_at": "2026-11-21T21:14:24.163271+08:00",
+          "snapshot_path": "sources/snapshots/oneuptime--oneuptime-readme.txt",
+          "line_start": 62,
+          "line_end": 62,
+          "upstream_excerpt": "You need a Linux server with at least 8 GB of memory. On a new Ubuntu, Debian or RHEL-based server, one command installs Docker, Git and Node.js where they are missing, asks for the address people will use and starts OneUptime:",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "oneuptime--oneuptime-license",
+          "field": "license_model",
+          "statement": "Apache-2.0 community code plus separately licensed ee directory",
+          "upstream_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/LICENSE",
+          "version_or_commit": "6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47",
+          "checked_at": "2026-11-21T21:14:24.163271+08:00",
+          "snapshot_path": "sources/snapshots/oneuptime--oneuptime-license.txt",
+          "line_start": 1,
+          "line_end": 25,
+          "upstream_excerpt": "Copyright (c) HackerBay, Inc. (doing business as OneUptime, \"OneUptime\")\n\nPortions of this software are licensed as follows:\n\n* All content that resides under the \"ee/\" directory of this repository, if\n  that directory exists, is licensed under the license defined in \"ee/LICENSE\"\n  (the OneUptime Enterprise License).\n* All third party components incorporated into the OneUptime Software are\n  licensed under the original license provided by the owner of the applicable\n  component.\n* Content outside of the above mentioned directories or restrictions above is\n  available under the \"Apache License, Version 2.0\" as defined below.\n\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/oneuptime--oneuptime-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:02.530791+08:00",
+  "review_round": "narrow_remediation"
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "louislam/uptime-kuma",
+  "checked_at": "2026-11-21T21:14:08.628227+08:00",
+  "revision": "b0cd0f1daf708a6c04f074c925a20e0229e80258",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/louislam/uptime-kuma.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nb0cd0f1daf708a6c04f074c925a20e0229e80258\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/README.md",
+      "final_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/README.md",
+      "path": "sources/snapshots/louislam--uptime-kuma-readme.txt",
+      "sha256": "e77d50b059a74f52820870157cb3faf5cdff474b823a8a7c4d2d3e6e96032f21",
+      "http_status": 200,
+      "line_count": 216,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/louislam/uptime-kuma/b0cd0f1daf708a6c04f074c925a20e0229e80258/LICENSE",
+      "path": "sources/snapshots/louislam--uptime-kuma-license.txt",
+      "sha256": "a0e4fe6bed45a817794411c8ddf2deffbe010ac3a2b2f47e5b8d2fe2f9486883",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

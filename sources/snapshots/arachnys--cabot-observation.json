@@ -1,0 +1,38 @@
+{
+  "repository": "arachnys/cabot",
+  "checked_at": "2026-11-21T21:14:14.280742+08:00",
+  "revision": "eb0b3544f8c8ab2dee4643df191da346a941734f",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/arachnys/cabot.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\neb0b3544f8c8ab2dee4643df191da346a941734f\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/README.md",
+      "final_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/README.md",
+      "path": "sources/snapshots/arachnys--cabot-readme.txt",
+      "sha256": "e39bbbbdd5be13527d73246745d0667a4fee104344c41b8b39693d4f1edfda47",
+      "http_status": 200,
+      "line_count": 122,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/arachnys/cabot/eb0b3544f8c8ab2dee4643df191da346a941734f/LICENSE",
+      "path": "sources/snapshots/arachnys--cabot-license.txt",
+      "sha256": "0c0f3e3b129781b4fbc5bf3653249a61a9213797c60c01477c6093bd1489c348",
+      "http_status": 200,
+      "line_count": 9,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

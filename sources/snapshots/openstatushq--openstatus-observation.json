@@ -1,0 +1,38 @@
+{
+  "repository": "openstatusHQ/openstatus",
+  "checked_at": "2026-11-21T21:14:16.432082+08:00",
+  "revision": "9201d65119690517789f3f3ebcd43c7760114248",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/openstatusHQ/openstatus.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n9201d65119690517789f3f3ebcd43c7760114248\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/README.md",
+      "final_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/README.md",
+      "path": "sources/snapshots/openstatushq--openstatus-readme.txt",
+      "sha256": "834327838b77124eb6787cbcf369055867e37bbf43d697bbb2e66fc68cc7673d",
+      "http_status": 200,
+      "line_count": 194,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/openstatusHQ/openstatus/9201d65119690517789f3f3ebcd43c7760114248/LICENSE",
+      "path": "sources/snapshots/openstatushq--openstatus-license.txt",
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

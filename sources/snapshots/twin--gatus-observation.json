@@ -1,0 +1,38 @@
+{
+  "repository": "TwiN/gatus",
+  "checked_at": "2026-11-21T21:14:09.263704+08:00",
+  "revision": "655e6f0dc0aca8de5b5018e8e521912fffc2c576",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/TwiN/gatus.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n655e6f0dc0aca8de5b5018e8e521912fffc2c576\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/README.md",
+      "final_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/README.md",
+      "path": "sources/snapshots/twin--gatus-readme.txt",
+      "sha256": "df0caa12c60e3ab941767ca1964fdcc2a53e7a7c88b6a5c888c70d5d29f2b989",
+      "http_status": 200,
+      "line_count": 3828,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/TwiN/gatus/655e6f0dc0aca8de5b5018e8e521912fffc2c576/LICENSE",
+      "path": "sources/snapshots/twin--gatus-license.txt",
+      "sha256": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c",
+      "http_status": 200,
+      "line_count": 202,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

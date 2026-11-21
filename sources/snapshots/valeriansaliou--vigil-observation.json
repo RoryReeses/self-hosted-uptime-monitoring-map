@@ -1,0 +1,38 @@
+{
+  "repository": "valeriansaliou/vigil",
+  "checked_at": "2026-11-21T21:14:13.314535+08:00",
+  "revision": "ff91dcf158da72546d74947bfeb50c77489d7f2f",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/valeriansaliou/vigil.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nff91dcf158da72546d74947bfeb50c77489d7f2f\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/README.md",
+      "final_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/README.md",
+      "path": "sources/snapshots/valeriansaliou--vigil-readme.txt",
+      "sha256": "d76c7222f2927677b59ca6b4de191a74680c9ec97b7f8907508fbb9f503acdad",
+      "http_status": 200,
+      "line_count": 522,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/valeriansaliou/vigil/ff91dcf158da72546d74947bfeb50c77489d7f2f/LICENSE.md",
+      "path": "sources/snapshots/valeriansaliou--vigil-license.txt",
+      "sha256": "8d40c261ec2a7585b2f0eae933ea5906d20f917b7f8a5e8cfa7baac279a0fc2c",
+      "http_status": 200,
+      "line_count": 366,
+      "upstream_filename": "LICENSE.md"
+    }
+  ],
+  "failures": []
+}

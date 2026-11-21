@@ -1,0 +1,38 @@
+{
+  "repository": "upptime/upptime",
+  "checked_at": "2026-11-21T21:14:08.156801+08:00",
+  "revision": "461c367dc189d2e181bfe93b88ac48b3147c32f7",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/upptime/upptime.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n461c367dc189d2e181bfe93b88ac48b3147c32f7\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/README.md",
+      "final_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/README.md",
+      "path": "sources/snapshots/upptime--upptime-readme.txt",
+      "sha256": "75b829390047aa0c21e1e415c9be7b49f437ffc4d8700414e0e7c9f45555869d",
+      "http_status": 200,
+      "line_count": 117,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/upptime/upptime/461c367dc189d2e181bfe93b88ac48b3147c32f7/LICENSE",
+      "path": "sources/snapshots/upptime--upptime-license.txt",
+      "sha256": "bc1a0e29ff4343f3041e74deb6d832e05f07caaae87a99a97377eb21f4508aa5",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

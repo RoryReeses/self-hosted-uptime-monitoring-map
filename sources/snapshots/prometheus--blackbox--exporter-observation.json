@@ -1,0 +1,38 @@
+{
+  "repository": "prometheus/blackbox_exporter",
+  "checked_at": "2026-11-21T21:14:20.247730+08:00",
+  "revision": "ab759898ee9eee75f577691be4595c99e6cba577",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/prometheus/blackbox_exporter.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nab759898ee9eee75f577691be4595c99e6cba577\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/README.md",
+      "final_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/README.md",
+      "path": "sources/snapshots/prometheus--blackbox--exporter-readme.txt",
+      "sha256": "a72ac9b6a0ad7b6ad182560a778f44d24db1301e9d6c8aa28807c395c61687d6",
+      "http_status": 200,
+      "line_count": 308,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/prometheus/blackbox_exporter/ab759898ee9eee75f577691be4595c99e6cba577/LICENSE",
+      "path": "sources/snapshots/prometheus--blackbox--exporter-license.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "http_status": 200,
+      "line_count": 201,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

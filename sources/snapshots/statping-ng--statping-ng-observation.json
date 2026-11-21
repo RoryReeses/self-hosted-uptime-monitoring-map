@@ -1,0 +1,38 @@
+{
+  "repository": "statping-ng/statping-ng",
+  "checked_at": "2026-11-21T21:14:08.266419+08:00",
+  "revision": "c02149f0a5f67fec1e60cfa3537478cd50899b15",
+  "branch": "dev",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/statping-ng/statping-ng.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/dev\tHEAD\nc02149f0a5f67fec1e60cfa3537478cd50899b15\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/README.md",
+      "final_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/README.md",
+      "path": "sources/snapshots/statping-ng--statping-ng-readme.txt",
+      "sha256": "65ebb0d29382438e80819dc76e3f9b50acbac772bab6ab878b2975f1df7ac7af",
+      "http_status": 200,
+      "line_count": 162,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/statping-ng/statping-ng/c02149f0a5f67fec1e60cfa3537478cd50899b15/LICENSE",
+      "path": "sources/snapshots/statping-ng--statping-ng-license.txt",
+      "sha256": "e99aaa9fd81e548c682d8b39ff84ee349f02b4549ab74e8d8855c31c09b71d5e",
+      "http_status": 200,
+      "line_count": 674,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

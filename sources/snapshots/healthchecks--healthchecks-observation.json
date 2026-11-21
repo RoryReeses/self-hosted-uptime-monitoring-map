@@ -1,0 +1,38 @@
+{
+  "repository": "healthchecks/healthchecks",
+  "checked_at": "2026-11-21T21:14:08.302525+08:00",
+  "revision": "ac59dec93c5179cdff471894704f360d6ee5e02a",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/healthchecks/healthchecks.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\nac59dec93c5179cdff471894704f360d6ee5e02a\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/README.md",
+      "final_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/README.md",
+      "path": "sources/snapshots/healthchecks--healthchecks-readme.txt",
+      "sha256": "54f17cf15f0faf08ca8296cbc9652d0d5e8656136aff17d13c3457e558bbefc6",
+      "http_status": 200,
+      "line_count": 606,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/healthchecks/healthchecks/ac59dec93c5179cdff471894704f360d6ee5e02a/LICENSE",
+      "path": "sources/snapshots/healthchecks--healthchecks-license.txt",
+      "sha256": "2151fd0e0678bea30d9d16230713a470a127d7b8c34999c17dbebbb0a3485f18",
+      "http_status": 200,
+      "line_count": 12,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

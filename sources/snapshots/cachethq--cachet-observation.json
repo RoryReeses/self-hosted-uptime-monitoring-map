@@ -1,0 +1,38 @@
+{
+  "repository": "cachethq/cachet",
+  "checked_at": "2026-11-21T21:14:14.694819+08:00",
+  "revision": "873e8223f611e9aaaae8a1122959f6d062b51e35",
+  "branch": "3.x",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/cachethq/cachet.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/3.x\tHEAD\n873e8223f611e9aaaae8a1122959f6d062b51e35\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/README.md",
+      "final_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/README.md",
+      "path": "sources/snapshots/cachethq--cachet-readme.txt",
+      "sha256": "007993b1f8a5e4b6a4f2106430377fa6393c3c6d20879467d707be8a8de4c1f9",
+      "http_status": 200,
+      "line_count": 61,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/LICENSE.md",
+      "final_url": "https://raw.githubusercontent.com/cachethq/cachet/873e8223f611e9aaaae8a1122959f6d062b51e35/LICENSE.md",
+      "path": "sources/snapshots/cachethq--cachet-license.txt",
+      "sha256": "050753a71b996deb8f71a153ae18ada9e0c0acb9d9928d6e0783e8ac35011c0b",
+      "http_status": 200,
+      "line_count": 50,
+      "upstream_filename": "LICENSE.md"
+    }
+  ],
+  "failures": []
+}

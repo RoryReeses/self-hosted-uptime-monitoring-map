@@ -1,0 +1,38 @@
+{
+  "repository": "hyperjumptech/monika",
+  "checked_at": "2026-11-21T21:14:15.784123+08:00",
+  "revision": "4599802a3bcf23070579b6d5e4ac95ab33d553de",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/hyperjumptech/monika.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n4599802a3bcf23070579b6d5e4ac95ab33d553de\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/README.md",
+      "final_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/README.md",
+      "path": "sources/snapshots/hyperjumptech--monika-readme.txt",
+      "sha256": "a93f99ca83545883a790a887701ec8754f6caed6e9e8fbf02017feb6901512c6",
+      "http_status": 200,
+      "line_count": 187,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/hyperjumptech/monika/4599802a3bcf23070579b6d5e4ac95ab33d553de/LICENSE.txt",
+      "path": "sources/snapshots/hyperjumptech--monika-license.txt",
+      "sha256": "51e25c09e58e229991b481ceaf46b6b842d896cadfbe90ea6af3d6f4940c5bd8",
+      "http_status": 200,
+      "line_count": 21,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

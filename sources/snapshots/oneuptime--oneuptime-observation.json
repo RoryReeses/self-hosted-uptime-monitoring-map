@@ -1,0 +1,38 @@
+{
+  "repository": "OneUptime/oneuptime",
+  "checked_at": "2026-11-21T21:14:24.163271+08:00",
+  "revision": "6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/OneUptime/oneuptime.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/README.md",
+      "final_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/README.md",
+      "path": "sources/snapshots/oneuptime--oneuptime-readme.txt",
+      "sha256": "fc22863290c9b590c3d37f68ca7a892557ec3edb1c9e8f1dfeea720ed22fe74a",
+      "http_status": 200,
+      "line_count": 122,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/OneUptime/oneuptime/6b92c10bef6fb3f3d5a4de95f5f58786b0f0ea47/LICENSE",
+      "path": "sources/snapshots/oneuptime--oneuptime-license.txt",
+      "sha256": "252ae3f8d465ce9df56f6531c73107c674f40d7d053581e148d387c93979cb86",
+      "http_status": 200,
+      "line_count": 214,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}
