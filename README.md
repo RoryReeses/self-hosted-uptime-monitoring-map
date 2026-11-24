@@ -1,6 +1,5 @@
 # Self-Hosted Uptime Monitoring Map
 
-
 > **Decision:** Use this map to separate endpoint probes, dead-man checks, public status, and incident operations before choosing components; skip it if you want repository popularity to stand in for an outage-path test.
 >
 > **For:** solo operators, home-lab maintainers, and small SRE teams  ·  **Not for:** buyers seeking a hosted-service ranking or an untested production guarantee
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the service map](assets/availability-layer-map.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Want a broad home-lab UI: start with Uptime Kuma, then test notification delivery and database restore.
 - Want versioned checks: compare Gatus with Monika; the former is a service, the latter is a CLI runner.
@@ -24,12 +22,10 @@ Place the detector outside the failure domain. A job heartbeat, pull probe and p
 
 ## Detection and communication layers
 
-
 - **Detection with an operator UI** — Uptime Kuma, Statping-ng, and Vigil combine probes with an operator-facing surface; verify their notification and state-backup paths independently.
 - **Checks as code** — Gatus and Monika suit reviewable definitions; Upptime additionally couples scheduling and publishing to GitHub Actions and Pages.
 - **Narrow components** — Healthchecks owns pushed job heartbeats, Blackbox Exporter exposes probe metrics, and Cachet publishes status; none alone replaces the other two roles.
 - **Incident platforms** — openstatus and OneUptime add communication or incident operations; confirm which self-hosted components and edition-specific features are actually required.
-
 
 ## Service map
 
@@ -52,9 +48,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Assemble the minimal stack
 
-
 A practical small stack can be Gatus or Uptime Kuma for probes, Healthchecks for jobs, and Cachet only when public communication must be separated. Prometheus users can instead scrape Blackbox Exporter and route alerts through their existing alert pipeline. Do not deploy two schedulers merely because both can issue HTTP requests.
-
 
 ## Adoption notes by project
 
