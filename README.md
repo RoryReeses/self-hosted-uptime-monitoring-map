@@ -1,8 +1,9 @@
 # Self-Hosted Uptime Monitoring Map
 
-> **Decision:** Choose between endpoint probes, heartbeat/dead-man checks, public status communication, and full incident operations without treating unlike components as substitutes.
 
-**For:** A solo operator or small team replacing a hosted uptime checker.  
+> **Decision:** Use this map to separate endpoint probes, dead-man checks, public status, and incident operations before choosing components; skip it if you want repository popularity to stand in for an outage-path test.
+>
+> **For:** solo operators, home-lab maintainers, and small SRE teams  ·  **Not for:** buyers seeking a hosted-service ranking or an untested production guarantee
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -152,6 +153,12 @@ A practical small stack can be Gatus or Uptime Kuma for probes, Healthchecks for
 
 Service availability detection and status communication, not general telemetry or AI-agent evaluation.
 
+## Adjacent guides
+
+- [self-hosted-notification-routing-index](https://github.com/brownrasr/self-hosted-notification-routing-index) — Use it when monitoring events need deduplication, escalation, and delivery across channels.
+- [agent-observability-field-guide](https://github.com/duthdoll45/agent-observability-field-guide) — Use it when the monitored workload is an LLM or agent system and trace-level diagnosis is required.
+- [self-hosted-container-management-map](https://github.com/Hervieux39AC/self-hosted-container-management-map) — Use it when the monitoring stack will run beside other containerized services and needs a recoverable control plane.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -164,3 +171,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
